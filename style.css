@@ -43,6 +43,7 @@ body{
 }
 .contenido{
     margin-block-start: 200px;    
+    margin-bottom: 300px;
 }
 .mapita1{
     border-radius: 22px;
@@ -51,8 +52,36 @@ body{
 }
 .mapa-inicio{
     height: 420px;
-    
     display: flex;
     justify-content:center;
     align-items: center;
+}
+@media only screen and (max-width: 1000px){
+    .nav-menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-decoration: none;
+        list-style-type: none;
+        font-size: 26px;
+    }
+    .logo{
+        text-decoration: none;
+        color: white;
+        font-size: 36px;
+        margin-left: 28px;
+        margin-right: 150px;
+        font-weight: bold;
+    }
+    .mapa-inicio{
+        height: 350px;
+        width: 1000px;
+    }
+    .mapita1{
+        border-radius: 22px;
+        width: 95%;
+        height: 100%;
+    }
+    
+
 }
