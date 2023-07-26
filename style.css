@@ -1,0 +1,41 @@
+body{
+    margin:0;
+    font-family: Roboto;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    position: sticky;
+
+
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+.logo{
+    text-decoration: none;
+    color: white;
+    font-size: 27px;
+    margin-left: 28px;
+    margin-right: 150px;
+    font-weight: bold;
+}
+
+.nav-menu-link{
+    display: flex;
+    margin: 12px;
+    text-decoration: none;
+    color: white;
+    
+}
+.nav-menu-item{
+    margin: 0px 32px;
+}
