@@ -9,8 +9,10 @@ body{
     justify-content: center;
     background-color: black;
     color: white;
-    position: sticky;
-
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
 
 }
 .nav-menu{
@@ -38,4 +40,19 @@ body{
 }
 .nav-menu-item{
     margin: 0px 32px;
+}
+.contenido{
+    margin-block-start: 200px;    
+}
+.mapita1{
+    border-radius: 22px;
+    width: 80%;
+    height: 60%;
+}
+.mapa-inicio{
+    height: 420px;
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
 }
